@@ -38,8 +38,10 @@ const NewMeetupForm = (props) => {
                     <label htmlFor="description">Description</label>
                     <textarea id="description" required rows={5} ref={DescInputRef} ></textarea>
                 </div>
-                <div className={classes.actions}>
-                    <button>Add Meetup</button>
+                <div 
+                // lassName={classes.actions} 
+                >
+                    <button class="btn btn-outline-danger" >Add Meetup</button>
                 </div>
             </form>
         </Card>

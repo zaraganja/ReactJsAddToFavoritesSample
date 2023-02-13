@@ -5,6 +5,7 @@ import MainNavigation from "./components/layout/MainNavigation";
 import AllMeetUps from "./pages/AllMeetUps";
 import Favorites from "./pages/Favorites";
 import NewMeetup from "./pages/NewMeetup";
+import W3YZ from "./pages/W3YZ";
 import { FavContext } from "./store/Favorites-context";
 
 // wiyh Routes , we say that only one page should be shown in the web page
@@ -51,6 +52,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} >
 
           </Route>
+          <Route path="/W3YZ" element={<W3YZ/>}></Route>
 
         </Routes>
       </FavContext.Provider>
